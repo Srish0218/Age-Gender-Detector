@@ -15,42 +15,34 @@ Before running the script, make sure you have the following dependencies install
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/face-age-gender-estimation.git
-Navigate to the project directory:
+   git clone https://github.com/Srish0218/face-age-gender-estimation.git
+2. Navigate to the project directory:
 
-shell
-Copy code
-cd face-age-gender-estimation
-Run the script:
+   ```shell
+   cd face-age-gender-estimation
+3. Run the script:
 
-shell
-Copy code
-python age_gender_estimation.py
-The script will open a window displaying the video feed from your webcam. It will detect faces in each frame and overlay the predicted age and gender on the faces.
+   ```shell
+   python age_gender_estimation.py
+4. The script will open a window displaying the video feed from your webcam. It will detect faces in each frame and overlay the predicted age and gender on the faces.
 
-Press the 'q' key to quit the script and close the window.
+5. Press the 'q' key to quit the script and close the window.
 
-Customization
+##Customization
 You can modify the script to suit your needs:
 
 Adjust the confidence threshold for face detection by changing the value in the if confidence > 0.7 condition.
 Customize the labels for age and gender by modifying the ageList and genderList arrays.
 Experiment with different pre-trained models for face detection, age estimation, and gender classification.
-License
-This project is licensed under the MIT License.
 
-Contributing
+##Contributing
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
 
-Acknowledgments
+##Acknowledgments
 The face detection, age estimation, and gender classification models used in this project are based on the following research papers:
 
 Face detection: "One Millisecond Face Alignment with an Ensemble of Regression Trees" by Vahid Kazemi and Josephine Sullivan.
 Age estimation: "Age and Gender Classification using Convolutional Neural Networks" by Gil Levi and Tal Hassner.
 Gender classification: "Gender Classification using Convolutional Neural Networks" by Gil Levi and Tal Hassner.
 sql
-Copy code
 
-Make sure to replace `your-username` with your actual GitHub username in the clone URL.
-
-Feel free to customize the README according to your specific project details and add any additional sections or information that may be relevant.
